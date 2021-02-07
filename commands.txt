@@ -1,0 +1,8 @@
+ls -al
+git pull https://github.com/umahato/demo2.git
+git init
+ls -al
+git add hello.txt hello.html hello.py
+git add .
+git commit -m "Initial commit"
+git push --set-upstream https://github.com/umahato/demo2.git master
